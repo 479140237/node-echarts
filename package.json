@@ -1,0 +1,23 @@
+{
+  "name": "node-echarts",
+  "version": "1.0.0",
+  "description": "Generate chart by [Apache ECharts (incubating)](https://github.com/apache/incubator-echarts) in Nodejs. ### Install OS | Command ----- | ----- OS X | `brew install pkg-config cairo pango libpng jpeg giflib` Ubuntu | `sudo apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev build-essential g++` Fedora | `sudo yum install cairo cairo-devel cairomm-devel libjpeg-turbo-devel pango pango-devel pangomm pangomm-devel giflib-devel` Solaris | `pkgin install cairo pango pkg-config xproto renderproto kbproto xextproto` Windows | [Instructions on our wiki](https://github.com/Automattic/node-canvas/wiki/Installation---Windows)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "echarts": "^5.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/479140237/node-echarts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/479140237/node-echarts/issues"
+  },
+  "homepage": "https://github.com/479140237/node-echarts#readme"
+}
